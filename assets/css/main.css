@@ -2274,6 +2274,13 @@ input, select, textarea {
 				border: solid 1px;
 				text-align: center;
 			}
+			.ionic:before {
+				content:url('https://img.icons8.com/ios-filled/72/efa8b0/ionic.png');
+				margin: calc(2.25em - 72);
+			}
+			.psql::before {
+				content:url('https://img.icons8.com/ios-filled/72/efa8b0/postgreesql.png');
+			}
 
 		.icon.alt {
 			display: inline-block;
@@ -2324,6 +2331,14 @@ input, select, textarea {
 				font-size: 4.75rem;
 			}
 
+			.ionic:before {
+				content:url('https://img.icons8.com/ios-filled/60/efa8b0/ionic.png');
+				margin: calc(2.25em - 72);
+			}
+			.psql::before {
+				content:url('https://img.icons8.com/ios-filled/60/efa8b0/postgreesql.png');
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2336,7 +2351,13 @@ input, select, textarea {
 				.icon.major:before {
 					font-size: 3.5rem;
 				}
-
+			
+				.ionic:before {
+					content:url('https://img.icons8.com/ios-filled/45/efa8b0/ionic.png');
+				}
+				.psql::before {
+					content:url('https://img.icons8.com/ios-filled/45/efa8b0/postgreesql.png');
+				}
 		}
 
 	.icon.major {
@@ -3859,5 +3880,4 @@ input, select, textarea {
 
 	.feature-icon::before {
 		font-size: 2.8rem !important;
-	}
 	}
